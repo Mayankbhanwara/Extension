@@ -1,11 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "Yash Auto-Copy-Link",
+  "name": "MayankShot",
   "version": "1.0",
-  "description": "Copy the current page URL to clipboard instantly.",
-  "permissions": ["activeTab", "scripting", "clipboardWrite"],
+  "description": "Capture screenshots of the current tab instantly.",
+  "permissions": ["activeTab", "tabs"],
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "link.png"
+    "default_icon": "screenshot.png"
   }
 }

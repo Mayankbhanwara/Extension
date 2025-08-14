@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Auto Copy Link</title>
+  <title>SnapEase Screenshot</title>
   <style>
-    body { font-family: Arial; text-align: center; padding: 20px; }
+    body { font-family: Arial, sans-serif; padding: 15px; text-align: center; }
+    h3 { margin-bottom: 15px; }
     button {
       background-color: #0078d7;
       color: white;
-      border: none;
       padding: 10px 20px;
+      border: none;
       cursor: pointer;
       border-radius: 5px;
+      font-size: 14px;
     }
-    button:hover { background-color: #005a9e; }
+    button:hover {
+      background-color: #005a9e;
+    }
   </style>
 </head>
 <body>
-  <h3>Auto Copy Link</h3>
-  <button id="copyBtn">Copy Current URL</button>
-  <p id="status" style="color: green; margin-top: 10px;"></p>
+  <h3>MayankShot</h3>
+  <button id="captureBtn">Take Screenshot</button>
+
   <script src="popup.js"></script>
 </body>
 </html>
