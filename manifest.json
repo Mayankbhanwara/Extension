@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Yash Auto-Copy-Link",
+  "version": "1.0",
+  "description": "Copy the current page URL to clipboard instantly.",
+  "permissions": ["activeTab", "scripting", "clipboardWrite"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "link.png"
+  }
+}
